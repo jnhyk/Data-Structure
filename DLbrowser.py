@@ -14,9 +14,9 @@ class DLinkedList: # 이중연결리스트
 	
 	def size(self):#연결리스트의 크기
 		count = 0#크기를 넣을 변수
-		current = self.head
+		current = self.head #현재 위치 
 		while current != None:
-			count += 1
+			count += 1#현재 위치에서 노드 하나 이동 할때 마다 count ++
 			current = current.next
 		
 		return count
